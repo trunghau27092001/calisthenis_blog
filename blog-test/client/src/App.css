@@ -1,0 +1,212 @@
+/* main {
+    
+} */
+*{
+    box-sizing:border-box;
+}
+img {
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+
+}
+
+header {
+    padding: 20px 50px;
+    /* max-width: 600px; */
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+
+header a:hover {
+    color:rgb(105, 105, 105);
+}
+
+header a.logo{
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    gap:10px;
+}
+
+.content{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.content .title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 50px 0;
+}
+
+.blog_content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:50px;
+}
+
+.blog_item img{
+    margin-bottom: 10px;
+}
+
+.blog_item h4{    
+    font-size: 25px;
+    margin: 20px 0;
+}
+.blog_item p{    
+    font-size: 16px;
+}
+
+.blog_item .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #555;
+    font-style: italic;
+}
+
+.blog_item .info time{
+    font-weight: bold;
+}
+
+form.login, form.register{
+    max-width: 400px;
+    margin:0 auto;
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+input{
+    display:block;
+    margin-bottom:5px;
+    width: 100%;
+    padding:10px 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+button{
+    width: 100%;
+    display: block;
+    background-color: #555;
+    color:white;
+    padding:10px 0;
+    border-radius: 10px;
+    border:0
+}
+
+form{
+    margin: 50px 100px;
+}
+
+form h1.title{
+    text-align: center;
+}
+
+form button{
+    margin-top: 30px;
+}
+
+.post-header{
+    display: flex;
+    margin:0 auto;
+    background-color: #f0f0f0;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 50%;
+    margin:0 auto;
+}
+
+.header-content h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.header-content span{
+    font-size: 21px;
+    color: #515050;
+}
+
+.post-header img{
+    width: 60%;
+    height: 550px;
+} 
+
+.post-content{
+    padding-top:30px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.post-author{
+    margin: 30px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+}
+
+.post-author time{
+    font-weight: bold;
+}
+
+.post-footer{
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: right;
+}
+
+.post-footer a{
+    color:rgb(255, 120, 3);
+    font-style: italic;
+}
+
+.post-footer button{
+    background-color:rgb(255, 120, 3);
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+
+.post-footer button:hover{
+    background-color:rgb(183, 87, 3);
+}
+
+
+a button svg{
+    height: 24px;
+}
+
+a svg{
+    height: 12px;
+}
